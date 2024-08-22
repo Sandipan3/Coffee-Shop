@@ -36,7 +36,10 @@ const gotoPage = (url) => {
 exploreBtn.addEventListener("click", () => gotoPage("services.html"));
 learnMoreBtn.addEventListener("click", () => gotoPage("about.html"));
 inventoryBtn.addEventListener("click", () => gotoPage("products.html"));
-readMoreBtn.addEventListener("click", () => gotoPage("products.html"));
+
+readMoreBtn.forEach((btn) => {
+    btn.addEventListener("click", () => gotoPage("products.html"))
+})
 
 
 

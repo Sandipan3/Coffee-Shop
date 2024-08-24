@@ -115,7 +115,7 @@ ScrollReveal().reveal(servicesCard, {
     interval: 200,
     reset: true
 });
-/* services card hover scale up gets disabled so I fixed that is js */
+/* services card hover scale up gets disabled so I fixed that in js */
 servicesCard.forEach(card => {
     card.addEventListener("mouseenter", () => {
         card.style.transform = 'scale(1.05)';
